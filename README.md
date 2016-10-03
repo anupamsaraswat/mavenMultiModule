@@ -26,6 +26,6 @@ mvn archetype:generate -DgroupId=com.anupam.app -DartifactId=my-rest-webapp -Dar
 *) run web application --- my-rest-webapp
 to run multiple web application  using jetty as in  this example my-rest-webapp, my-webapp
 
--- mvn jetty:run -pl my-rest-webapp (appliation will run on default port 8080)
+-- <b> mvn jetty:run -pl my-rest-webapp </b> (appliation will run on default port 8080)
 open another terminal session and run 
--- mvn jetty:run -Djetty.http.port=8081 -pl my-webapp (application will run on port 8081 provided port is available)
+-- <b> mvn jetty:run -Djetty.http.port=8081 -pl my-webapp </b> (application will run on port 8081 provided port is available)
