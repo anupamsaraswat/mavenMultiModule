@@ -23,8 +23,7 @@ mvn archetype:generate -DgroupId=com.anupam.app -DartifactId=my-rest-webapp -Dar
 
 
 
-*) run web application --- my-rest-webapp
-to run multiple web application  using jetty as in  this example my-rest-webapp, my-webapp
+*) run multiple web application using jetty as in this example my-rest-webapp, my-webapp
 
 -- <b> mvn jetty:run -pl my-rest-webapp </b> (appliation will run on default port 8080)
 open another terminal session and run 
