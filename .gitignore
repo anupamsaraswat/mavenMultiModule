@@ -1,1 +1,8 @@
 #gitignore file
+
+*.jar
+*.class
+*.war
+*.ear
+
+target/*
