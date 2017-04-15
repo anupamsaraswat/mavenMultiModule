@@ -7,9 +7,7 @@
     <artifactId>my-app</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.anupam.app</groupId>
   <artifactId>my-service</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <name>my-service</name>
   <url>http://maven.apache.org</url>
   <dependencies>

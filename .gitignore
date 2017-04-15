@@ -5,4 +5,13 @@
 *.war
 *.ear
 
+
+#eclipse project specific files
+.project
+.classpath
+.settings
+
+
+
+#build files
 **/target/*
